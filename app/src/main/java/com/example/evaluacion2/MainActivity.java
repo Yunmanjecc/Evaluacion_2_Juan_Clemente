@@ -1,3 +1,5 @@
+//Juan Eduardo Clemente Chávez
+
 package com.example.evaluacion2;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         handler = new Handler();
+        // Cuando se inicializa el splash, espera 3 segundos para ir a la siguiente actividad
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
